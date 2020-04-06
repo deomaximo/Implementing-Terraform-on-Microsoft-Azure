@@ -14,12 +14,12 @@ variable "location" {
 
 variable "vnet_cidr_range" {
   type    = string
-  default = "10.1.0.0/16"
+  default = "10.2.0.0/16"
 }
 
 variable "sec_subnet_prefixes" {
   type    = list(string)
-  default = ["10.1.0.0/24", "10.1.1.0/24"]
+  default = ["10.2.0.0/24", "10.2.1.0/24"]
 }
 
 variable "sec_subnet_names" {
